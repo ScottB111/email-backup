@@ -4,6 +4,8 @@ by Daniel D. Beck
 
 This repo helps you set up email backups with [OfflineIMAP/offlineimap](https://github.com/OfflineIMAP/offlineimap).
 
+You are free to copy, modify, and distribute this project under the terms of the 3-clause BSD license. See the LICENSE file for details.
+
 ## Prerequisites
 
 To use this project, you'll need the following:
