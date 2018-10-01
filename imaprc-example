@@ -1,0 +1,23 @@
+[general]
+metadata = /mnt/metadata
+accounts = <USERNAME>
+
+[Account <USERNAME>]
+localrepository = Local
+remoterepository = Remote
+synclabels = yes
+
+[Repository Local]
+type = GmailMaildir
+localfolders = /mnt/data/<USERNAME>
+
+[Repository Remote]
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+type = IMAP
+remotehost = imap.gmail.com
+remoteuser = <USERNAME>@gmail.com
+remotepass = <PASSWORD>
+ssl = yes
+maxconnections = 1
+realdelete = no
+readonly = yes
