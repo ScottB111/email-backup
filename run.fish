@@ -27,7 +27,7 @@ begin # check configuration
     end
 end
 
-and docker run \
+docker run \
     -v $IMAPRC_FILE:/imaprc \
     -v $BACKUPS_PATH:/mnt/data \
     -v $METADATA_PATH:/mnt/metadata \
